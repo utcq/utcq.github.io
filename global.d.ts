@@ -122,6 +122,10 @@ interface Social {
    */
   mastodon?: string;
 
+  olicyber?: string;
+
+  olinfo?: string;
+
   /**
    * ResearchGate username
    */
