@@ -45,19 +45,6 @@ const companyLink = (company: string): string => {
   return `https://github.com/${company.substring(1)}`;
 };
 
-const getFormattedMastodonValue = (
-  mastodonValue: string,
-  isLink: boolean,
-): string => {
-  const [username, server] = mastodonValue.split('@');
-
-  if (isLink) {
-    return `https://${server}/@${username}`;
-  } else {
-    return `${username}@${server}`;
-  }
-};
-
 const ListItem: React.FC<{
   icon: React.ReactNode;
   title: React.ReactNode;
