@@ -218,20 +218,20 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://twitter.com/${social.twitter}`}
                 />
               )}
-              {social?.mastodon && (
+              {social?.olicyber && (
                 <ListItem
                   icon={<FaMastodon />}
-                  title="Mastodon:"
-                  value={getFormattedMastodonValue(social.mastodon, false)}
-                  link={getFormattedMastodonValue(social.mastodon, true)}
+                  title="Olicyber:"
+                  value={social.olicyber}
+                  link={`https://training.olicyber.it/scoreboard`}
                 />
               )}
-              {social?.linkedin && (
+              {social?.olinfo && (
                 <ListItem
                   icon={<FaLinkedin />}
-                  title="LinkedIn:"
-                  value={social.linkedin}
-                  link={`https://www.linkedin.com/in/${social.linkedin}`}
+                  title="Olinfo:"
+                  value={social.olinfo}
+                  link={`https://training.olinfo.it/#/user/${social.linkedin}/profile`}
                 />
               )}
               {social?.dribbble && (
