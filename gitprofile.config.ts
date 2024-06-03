@@ -76,7 +76,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://utcq.github.io',
     olicyber: 'unitythecoder',
-    olinfo: 'unitythecoder',
+    olinfo: 'unitycoder',
     phone: '',
     email: 'unityCoder@proton.me',
   },
