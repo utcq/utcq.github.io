@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['utcq/soel', 'funixorg/Saturn9', 'utcq/rave', 'utcq/olicybsec', 'utcq/oca', 'utcq/AseV', 'utcq/datolite'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['utcq/soel', 'funixorg/Saturn9', 'utcq/wind', 'utcq/rave', 'utcq/olicybsec', 'utcq/oca', 'utcq/AseV', 'utcq/datolite'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
